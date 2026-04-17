@@ -8,8 +8,28 @@
 # Markdown documents
 *.md text eol=crlf encoding=utf-8
 
+# DotNet files
+*.resx text eol=crlf encoding=utf-8
+*.settings text eol=crlf encoding=utf-8
+global.json text eol=crlf encoding=utf-8
+
+# XAML files
+*.xaml text eol=crlf encoding=utf-8
+*.axaml text eol=crlf encoding=utf-8
+
 # MSBuild files
 *.sln text eol=crlf encoding=utf-8-bom
+*.slnx text eol=crlf encoding=utf-8
+*.slnf text eol=crlf encoding=utf-8
+*.csproj text eol=crlf encoding=utf-8
+*.props text eol=crlf encoding=utf-8
+*.targets text eol=crlf encoding=utf-8
+
+# CSharp files
+*.cs text eol=crlf encoding=utf-8
+
+# NuGet files
+NuGet.config text eol=crlf encoding=utf-8
 
 # Git configs
 .gitattributes text eol=lf encoding=utf-8
@@ -17,3 +37,7 @@
 
 # EditorConfig files
 .editorconfig text eol=crlf encoding=utf-8
+
+# Assets
+*.ico binary
+*.png binary
