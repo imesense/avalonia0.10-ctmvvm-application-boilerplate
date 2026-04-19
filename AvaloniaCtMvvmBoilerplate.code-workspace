@@ -20,7 +20,8 @@
     "settings": {
         "files.associations": {
             "*.config": "xml",
-            "*.manifest": "xml"
+            "*.manifest": "xml",
+            "*.XamlStyler": "json"
         },
 
         "redhat.telemetry.enabled": false,

@@ -23,6 +23,9 @@
 # CSharp files
 *.cs text eol=crlf encoding=utf-8
 
+# XAML Styler files
+*.XamlStyler text eol=crlf encoding=utf-8
+
 # Assets
 *.ico binary
 *.png binary
@@ -31,6 +34,7 @@
 *.resx text eol=crlf encoding=utf-8
 *.settings text eol=crlf encoding=utf-8
 global.json text eol=crlf encoding=utf-8
+dotnet-tools.json text eol=crlf encoding=utf-8
 
 # Visual Studio Code files
 *.code-workspace text eol=crlf encoding=utf-8

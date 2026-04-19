@@ -249,6 +249,14 @@ csharp_prefer_static_anonymous_function = true:suggestion
 # CSharp using settings
 csharp_using_directive_placement = outside_namespace:silent
 
+# XAML Styler files
+[*.XamlStyler]
+charset = utf-8
+end_of_line = crlf
+indent_size = 4
+indent_style = space
+insert_final_newline = true
+
 # DotNet files
 [*.{resx,settings}]
 charset = utf-8
@@ -256,7 +264,7 @@ end_of_line = crlf
 indent_size = 4
 indent_style = space
 insert_final_newline = true
-[global.json]
+[{global,dotnet-tools}.json]
 charset = utf-8
 end_of_line = crlf
 indent_size = 4
