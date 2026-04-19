@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<linker>
+    <assembly fullname="mscorlib">
+        <type fullname="System.Threading.WasmRuntime" />
+    </assembly>
+
+    <assembly fullname="System.Core">
+        <type fullname="System.Linq.Expressions*" />
+    </assembly>
+
+    <assembly fullname="ImeSense.Boilerplates.Avalonia" preserve="All" />
+    <assembly fullname="ImeSense.Boilerplates.BlazorWrapper" preserve="All" />
+</linker>
