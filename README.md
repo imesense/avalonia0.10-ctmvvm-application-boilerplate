@@ -1,4 +1,4 @@
-# Avalonia CommunityToolkit.Mvvm Boilerplate
+# Avalonia Application Boilerplate
 
 ## License
 
