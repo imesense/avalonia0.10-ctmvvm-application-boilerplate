@@ -17,20 +17,6 @@ indent_size = 4
 indent_style = space
 insert_final_newline = true
 
-# DotNet files
-[*.{resx,settings}]
-charset = utf-8
-end_of_line = crlf
-indent_size = 4
-indent_style = space
-insert_final_newline = true
-[global.json]
-charset = utf-8
-end_of_line = crlf
-indent_size = 4
-indent_style = space
-insert_final_newline = true
-
 # XAML files
 [*.{xaml,axaml}]
 charset = utf-8
@@ -263,8 +249,28 @@ csharp_prefer_static_anonymous_function = true:suggestion
 # CSharp using settings
 csharp_using_directive_placement = outside_namespace:silent
 
-# NuGet files
-[NuGet.config]
+# DotNet files
+[*.{resx,settings}]
+charset = utf-8
+end_of_line = crlf
+indent_size = 4
+indent_style = space
+insert_final_newline = true
+[global.json]
+charset = utf-8
+end_of_line = crlf
+indent_size = 4
+indent_style = space
+insert_final_newline = true
+
+# Visual Studio Code files
+[*.code-workspace]
+charset = utf-8
+end_of_line = crlf
+indent_size = 4
+indent_style = space
+insert_final_newline = true
+[.vscode/*.json]
 charset = utf-8
 end_of_line = crlf
 indent_size = 4
@@ -280,6 +286,14 @@ insert_final_newline = true
 
 # EditorConfig files
 [.editorconfig]
+charset = utf-8
+end_of_line = crlf
+indent_size = 4
+indent_style = space
+insert_final_newline = true
+
+# NuGet files
+[NuGet.config]
 charset = utf-8
 end_of_line = crlf
 indent_size = 4
