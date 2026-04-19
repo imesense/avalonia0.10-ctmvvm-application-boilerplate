@@ -2,7 +2,8 @@
     "files.associations": {
         "*.config": "xml",
         "*.manifest": "xml",
-        "*.XamlStyler": "json"
+        "*.XamlStyler": "json",
+        "*.tgitconfig": "properties"
     },
 
     "redhat.telemetry.enabled": false,
