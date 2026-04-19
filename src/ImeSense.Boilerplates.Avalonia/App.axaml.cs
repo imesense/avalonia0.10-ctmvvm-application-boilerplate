@@ -15,14 +15,18 @@ public partial class App : Application
 
     public override void OnFrameworkInitializationCompleted()
     {
-        if (ApplicationLifetime is IClassicDesktopStyleApplicationLifetime desktop)
+        if (ApplicationLifetime is IClassicDesktopStyleApplicationLifetime desktopLifetime)
         {
             // Remove Avalonia data validation to avoid duplication validations
             // from both Avalonia and CommunityToolkit.Mvvm.
             ExpressionObserver.DataValidators.RemoveAll(x =>
                 x is DataAnnotationsValidationPlugin);
 
-            desktop.MainWindow = new MainWindow();
+            desktopLifetime.MainWindow = new MainWindow();
+        }
+        else if (ApplicationLifetime is ISingleViewApplicationLifetime singleViewLifetime)
+        {
+            singleViewLifetime.MainView = new MainView();
         }
 
         base.OnFrameworkInitializationCompleted();
