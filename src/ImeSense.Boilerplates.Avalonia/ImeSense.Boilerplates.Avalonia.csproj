@@ -16,12 +16,12 @@
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="Avalonia" Version="0.10.22" />
-        <PackageReference Include="Avalonia.Diagnostics" Version="0.10.22">
+        <PackageReference Include="Avalonia" />
+        <PackageReference Include="Avalonia.Diagnostics">
             <PrivateAssets Condition="'$(Configuration)' != 'Debug'">All</PrivateAssets>
             <IncludeAssets Condition="'$(Configuration)' != 'Debug'">None</IncludeAssets>
         </PackageReference>
-        <PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.0" />
-        <PackageReference Include="XamlNameReferenceGenerator" Version="1.6.1" />
+        <PackageReference Include="CommunityToolkit.Mvvm" />
+        <PackageReference Include="XamlNameReferenceGenerator" />
     </ItemGroup>
 </Project>

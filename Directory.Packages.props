@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Project>
+    <PropertyGroup>
+        <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageVersion Include="Avalonia" Version="0.10.22" />
+        <PackageVersion Include="Avalonia.Desktop" Version="0.10.22" />
+        <PackageVersion Include="Avalonia.Diagnostics" Version="0.10.22" />
+        <PackageVersion Include="CommunityToolkit.Mvvm" Version="8.2.0" />
+        <PackageVersion Include="XamlNameReferenceGenerator" Version="1.6.1" />
+    </ItemGroup>
+</Project>
