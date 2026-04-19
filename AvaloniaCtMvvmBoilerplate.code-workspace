@@ -1,0 +1,47 @@
+{
+    "folders": [
+        {
+            "name": "AvaloniaCtMvvmBoilerplate",
+            "path": "."
+        }
+    ],
+
+    "extensions": {
+        "recommendations": [
+            "davidanson.vscode-markdownlint",
+            "editorconfig.editorconfig",
+            "redhat.vscode-xml",
+            "redhat.vscode-yaml",
+            "ms-dotnettools.csdevkit",
+            "avaloniateam.vscode-avalonia"
+        ]
+    },
+
+    "settings": {
+        "files.associations": {
+            "*.config": "xml",
+            "*.manifest": "xml"
+        },
+
+        "redhat.telemetry.enabled": false,
+        "xml.server.preferBinary": true,
+        "yaml.extension.recommendations": false,
+
+        "dotnet.projects.enableAutomaticRestore": false,
+        "dotnetAcquisitionExtension.enableTelemetry": false,
+
+        "[markdown]": {
+            "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+        },
+
+        "[xml]": {
+            "editor.defaultFormatter": "redhat.vscode-xml"
+        },
+        "[json]": {
+            "editor.defaultFormatter": "vscode.json-language-features"
+        },
+        "[yaml]": {
+            "editor.defaultFormatter": "redhat.vscode-yaml"
+        }
+    }
+}

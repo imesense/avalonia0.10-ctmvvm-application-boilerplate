@@ -1,0 +1,10 @@
+{
+    "recommendations": [
+        "davidanson.vscode-markdownlint",
+        "editorconfig.editorconfig",
+        "redhat.vscode-xml",
+        "redhat.vscode-yaml",
+        "ms-dotnettools.csdevkit",
+        "avaloniateam.vscode-avalonia"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+
+    "configurations": [
+        {
+            "name": "Debug Application Boilerplate for Windows",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${workspaceFolder}/src/ImeSense.Boilerplates.Avalonia.Windows/ImeSense.Boilerplates.Avalonia.Windows.csproj"
+        },
+        {
+            "name": "Debug Application Boilerplate for Linux",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${workspaceFolder}/src/ImeSense.Boilerplates.Avalonia.Linux/ImeSense.Boilerplates.Avalonia.Linux.csproj"
+        }
+    ]
+}
