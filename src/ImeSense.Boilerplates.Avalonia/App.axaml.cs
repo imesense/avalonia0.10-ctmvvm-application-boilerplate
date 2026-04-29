@@ -15,13 +15,13 @@ public partial class App : Application
 
     public override void OnFrameworkInitializationCompleted()
     {
+        // Remove Avalonia data validation to avoid duplication validations
+        // from both Avalonia and CommunityToolkit.Mvvm.
+        ExpressionObserver.DataValidators.RemoveAll(x =>
+            x is DataAnnotationsValidationPlugin);
+
         if (ApplicationLifetime is IClassicDesktopStyleApplicationLifetime desktopLifetime)
         {
-            // Remove Avalonia data validation to avoid duplication validations
-            // from both Avalonia and CommunityToolkit.Mvvm.
-            ExpressionObserver.DataValidators.RemoveAll(x =>
-                x is DataAnnotationsValidationPlugin);
-
             desktopLifetime.MainWindow = new MainWindow();
         }
         else if (ApplicationLifetime is ISingleViewApplicationLifetime singleViewLifetime)
